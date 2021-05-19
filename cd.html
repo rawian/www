@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+		<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.cabrillo.edu/%7edbrown/tracker/tracker_16.ico">
+		<title>Tracker Help: Getting Started</title>
+		<link href="help.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+		.auto-style1 {
+			text-align: center;
+		}
+		.auto-style2 {
+			text-align: left;
+		}
+		.auto-style3 {
+			border-style: solid;
+			border-width: 1px;
+		}
+		.auto-style4 {
+			margin-left: 40px;
+			text-align: left;
+		}
+		</style>
+		</head>
+
+	<body>
+		<h1>Interferenz am Gitter</h1>
+        
+		<h3>1. Vorbetrachtung</h3>
+		<p>Viele parallele Spalte, mit gleicher Spaltbreite und gleichem 
+			Abstand zueinander, werden optisches Gitter genannt. Im Beugungsbild 
+			eines Gitters erscheinen äquidistante Hauptmaxima, die schmaler und 
+			heller sind als beim Doppelspalt. Zwischen den Hauptmaxima liegen 
+			breite Bereiche, in denen das Licht durch Interferenz nahezu 
+			ausgelöscht wird, vgl. Abbildung 1. Die theoretische Betrachtung des 
+			Gitters unterscheidet sich nicht vom Doppelspalt. Die folgenden 
+			Ausführungen erfolgen am Doppelspalt.</p>
+		<p class="auto-style1">
+		<img height="300" src="abb/cd/abb01.png"><br>
+		Abbildung 1: Fraunhofer-Beugungsfigur [1, S. 318]</p>
+		<p class="auto-style2">Für <span class="math inline">\(\alpha=0\)</span> ist der Gangunterschied der beiden 
+		Wellenzüge <span class="math inline">\(\Delta s=0\)</span>, sodass sich in der Mitte des Schirms ein 
+		Interferenzmaximum, das sogenannte Maximum nullter Ordnung, ergibt. Auch 
+		für andere Winkel <span class="math inline">\(\alpha\)</span> sind beide Wellenzüge in Phase, nämlich dann, 
+		wenn der Gangunterschied <span class="math inline">\(\Delta s=\lambda\)</span>  oder ein Vielfaches der 
+		Wellenlänge beträgt [1, S. 318]. Allgemein folgt für konstruktive 
+		Interferenz die Bedingung</p>
+		<p class="auto-style1"><span class="math inline">\(\Delta s=\lambda \cdot n\)&nbsp;&nbsp;&nbsp; </span>(1)</p>
+		<p>mit <span class="math inline">\(n \in \mathbb{N}\)</span>. In 
+		Abbildung 2 ist der Weg zweier Wellen vom Doppelspalt bis zum Punkt
+		<strong>P</strong> des Schirms schematisch dargestellt. Der Schirm 
+		befindet sich im Abstand&nbsp; <strong>e</strong> zum Doppelspalt und 
+		der Punkt <strong>P</strong> im Abstand <strong>s</strong> <span class="math inline">\(_n\)</span> zum Interferenzmaximum nullter Ordnung. Der 
+		Abstand der Spaltmitten, kurz Spaltabstand <strong>d</strong>, entspricht der gesuchten 
+		Spurbreite. </p>
+		<p class="auto-style1"><img alt="" height="500" src="abb/cd/abb02.jpg"><br>
+		Abbildung 2: Beugung am Doppelspalt</p>
+		<p class="auto-style2">Für die beiden rechtwinkligen Dreiecke ergeben 
+		sich die folgenden Winkelfunktionen. </p>
+		<p class="auto-style1"><span class="math inline">\(\sin(\alpha)=\frac{\Delta s}{d}\)</span>&nbsp;&nbsp;&nbsp;&nbsp; (2)</p>
+		<p class="auto-style1"><span class="math inline">\(\sin(\alpha)=\frac{s_n}{h}\)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3)</p>
+		<p class="auto-style2">Für die Hypotenuse <strong>h</strong> gilt nach 
+		dem Satz des Pythagoras:</p>
+		<p class="auto-style1"><span class="math inline">\(h = \sqrt{e^2+s_n^2}\)</span>&nbsp;&nbsp;&nbsp;&nbsp; (4)</p>
+		<p>Gleichsetzen von (2) und (3) und Einsetzen von (4) ergibt:</p>
+		<p class="auto-style1"><span class="math inline">\(\frac{\Delta s}{d}=\frac{s_n}{\sqrt{e^2+s_n^2}}\)</span>&nbsp;&nbsp;&nbsp;&nbsp; (5)</p>
+		<p>Im letzten Schritt wird die Gleichung (5) nach dem Spurabstand <strong>d</strong> umgestellt 
+		und die Gleichung (1) eingesetzt, sodass folgt:</p>
+		<div class="auto-style3">
+		<p class="auto-style1" style="font-size:1.3em"><span class="math inline">\(d=\frac{\lambda \cdot n \cdot \sqrt{e^2+s_{n,max}^2}}{s_{n,max}}\)</span></p>
+		<p class="auto-style4">d&nbsp;&nbsp;&nbsp;&nbsp; ...Spaltabstand <br>e&nbsp;&nbsp;&nbsp;&nbsp; 
+		...Abstand vom Doppelspalt zum Schirm <br>n&nbsp;&nbsp;&nbsp;&nbsp; 
+		...Ordnung<br><span class="math inline">\(s_n\)&nbsp;&nbsp; ...Abstand 
+		Maximum n-ter Ordnung zum Maximum nullter Ordnung</span></p>
+		</div>
+		
+		
+		
+	</body>
+
+</html>
